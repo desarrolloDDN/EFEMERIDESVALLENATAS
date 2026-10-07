@@ -172,3 +172,119 @@ add_filter(
 		return remove_query_arg( array( 'add-to-cart', 'quantity' ) );
 	}
 );
+
+/* ==========================================================================
+   WooCommerce en español completo
+   La traducción es_CO de WooCommerce está incompleta (sobre todo carrito y
+   checkout por bloques). Se usa la de español de España (es_ES) solo para
+   rellenar los textos que falten; las traducciones es_CO tienen prioridad.
+   ========================================================================== */
+
+/** ¿Hace falta el respaldo es_ES? (sitio en español distinto de es_ES). */
+function ev_wc_es_fallback_needed() {
+	$locale = determine_locale();
+	return ev_has_shop() && 0 === strpos( $locale, 'es_' ) && 'es_ES' !== $locale;
+}
+
+/** Descarga (una vez por versión de WooCommerce) el paquete de idioma es_ES. */
+function ev_wc_install_es_pack() {
+	if ( ! ev_wc_es_fallback_needed() || ! current_user_can( 'install_languages' ) ) {
+		return;
+	}
+	$flag = 'ev_wc_es_pack_' . WC_VERSION;
+	if ( get_option( $flag ) ) {
+		return;
+	}
+	require_once ABSPATH . 'wp-admin/includes/translation-install.php';
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	$api = translations_api( 'plugins', array( 'slug' => 'woocommerce', 'version' => WC_VERSION ) );
+	if ( is_wp_error( $api ) || empty( $api['translations'] ) ) {
+		return;
+	}
+	foreach ( $api['translations'] as $t ) {
+		if ( 'es_ES' !== $t['language'] ) {
+			continue;
+		}
+		$tmp = download_url( $t['package'] );
+		if ( is_wp_error( $tmp ) ) {
+			return;
+		}
+		WP_Filesystem();
+		$dir = WP_LANG_DIR . '/plugins';
+		wp_mkdir_p( $dir );
+		$ok = unzip_file( $tmp, $dir );
+		wp_delete_file( $tmp );
+		if ( ! is_wp_error( $ok ) ) {
+			update_option( $flag, 1, false );
+		}
+		return;
+	}
+}
+add_action( 'admin_init', 'ev_wc_install_es_pack' );
+
+/** PHP: cargar es_ES detrás de es_CO (lo cargado primero tiene prioridad). */
+add_action(
+	'load_textdomain',
+	function ( $domain, $mofile ) {
+		static $loading = false;
+		if ( 'woocommerce' !== $domain || $loading || false !== strpos( (string) $mofile, 'es_ES' ) || ! ev_wc_es_fallback_needed() ) {
+			return;
+		}
+		$fallback = WP_LANG_DIR . '/plugins/woocommerce-es_ES.mo';
+		if ( is_readable( $fallback ) ) {
+			$loading = true;
+			load_textdomain( 'woocommerce', $fallback, determine_locale() );
+			$loading = false;
+		}
+	},
+	10,
+	2
+);
+
+/** Ruta del archivo es_ES equivalente a un archivo de traducción JS es_CO. */
+function ev_wc_es_json( $file ) {
+	$locale = determine_locale();
+	if ( ! $file || false === strpos( $file, '-' . $locale . '-' ) ) {
+		return '';
+	}
+	$es = str_replace( '-' . $locale . '-', '-es_ES-', $file );
+	return is_readable( $es ) ? $es : '';
+}
+
+/** JS (bloques de carrito y checkout): si no hay archivo es_CO, usar el es_ES. */
+add_filter(
+	'load_script_translation_file',
+	function ( $file, $handle, $domain ) {
+		if ( 'woocommerce' === $domain && $file && ! is_readable( $file ) && ev_wc_es_fallback_needed() ) {
+			$es = ev_wc_es_json( $file );
+			return $es ? $es : $file;
+		}
+		return $file;
+	},
+	10,
+	3
+);
+
+/** JS: si hay archivo es_CO, completarlo con es_ES (es_CO tiene prioridad). */
+add_filter(
+	'load_script_translations',
+	function ( $translations, $file, $handle, $domain ) {
+		if ( 'woocommerce' !== $domain || ! ev_wc_es_fallback_needed() ) {
+			return $translations;
+		}
+		$es_file = ev_wc_es_json( $file );
+		if ( ! $es_file ) {
+			return $translations;
+		}
+		$es = json_decode( (string) file_get_contents( $es_file ), true );
+		$co = json_decode( (string) $translations, true );
+		if ( empty( $es['locale_data']['messages'] ) || empty( $co['locale_data']['messages'] ) ) {
+			return $translations;
+		}
+		$co_msgs = array_filter( $co['locale_data']['messages'], fn( $v ) => is_array( $v ) && '' !== ( $v[0] ?? '' ) );
+		$co['locale_data']['messages'] = array_merge( $es['locale_data']['messages'], $co_msgs );
+		return wp_json_encode( $co );
+	},
+	10,
+	4
+);
