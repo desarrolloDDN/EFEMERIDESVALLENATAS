@@ -1,0 +1,977 @@
+{
+ "ephemerides": [
+  {
+   "slug": "nace-personaje-01",
+   "day": 4,
+   "month": 1,
+   "title": "Nace [Personaje 01]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "nacimientos",
+   "people": "[Personaje 01]",
+   "featured": true
+  },
+  {
+   "slug": "fallece-personaje-02",
+   "day": 12,
+   "month": 1,
+   "title": "Fallece [Personaje 02]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "fallecimientos",
+   "people": "[Personaje 02]",
+   "featured": false
+  },
+  {
+   "slug": "se-publica-el-disco-titulo-del-disco-03",
+   "day": 27,
+   "month": 1,
+   "title": "Se publica el disco [Título del disco 03]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "discos",
+   "people": "[Intérprete 03]",
+   "featured": false
+  },
+  {
+   "slug": "se-graba-la-cancion-titulo-de-la-cancion-04",
+   "day": 2,
+   "month": 2,
+   "title": "Se graba la canción [Título de la canción 04]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "canciones",
+   "people": "[Compositor 04]",
+   "featured": false
+  },
+  {
+   "slug": "se-celebra-nombre-del-festival-05",
+   "day": 15,
+   "month": 2,
+   "title": "Se celebra [Nombre del festival 05]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "festivales",
+   "people": "",
+   "featured": true
+  },
+  {
+   "slug": "compositor-06-estrena-titulo-de-la-obra",
+   "day": 23,
+   "month": 2,
+   "title": "[Compositor 06] estrena [Título de la obra]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "compositores",
+   "people": "[Compositor 06]",
+   "featured": false
+  },
+  {
+   "slug": "interprete-07-se-presenta-en-lugar",
+   "day": 1,
+   "month": 3,
+   "title": "[Intérprete 07] se presenta en [Lugar]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "interpretes",
+   "people": "[Intérprete 07]",
+   "featured": false
+  },
+  {
+   "slug": "acontecimiento-historico-08",
+   "day": 9,
+   "month": 3,
+   "title": "[Acontecimiento histórico 08]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "historicos",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "hito-de-la-cultura-vallenata-09",
+   "day": 30,
+   "month": 3,
+   "title": "[Hito de la cultura vallenata 09]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "cultura",
+   "people": "",
+   "featured": true
+  },
+  {
+   "slug": "nace-personaje-10",
+   "day": 6,
+   "month": 4,
+   "title": "Nace [Personaje 10]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "nacimientos",
+   "people": "[Personaje 10]",
+   "featured": false
+  },
+  {
+   "slug": "fallece-personaje-11",
+   "day": 18,
+   "month": 4,
+   "title": "Fallece [Personaje 11]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "fallecimientos",
+   "people": "[Personaje 11]",
+   "featured": false
+  },
+  {
+   "slug": "se-publica-el-disco-titulo-del-disco-12",
+   "day": 26,
+   "month": 4,
+   "title": "Se publica el disco [Título del disco 12]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "discos",
+   "people": "[Intérprete 12]",
+   "featured": false
+  },
+  {
+   "slug": "se-graba-la-cancion-titulo-de-la-cancion-13",
+   "day": 3,
+   "month": 5,
+   "title": "Se graba la canción [Título de la canción 13]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "canciones",
+   "people": "[Compositor 13]",
+   "featured": false
+  },
+  {
+   "slug": "se-celebra-nombre-del-festival-14",
+   "day": 14,
+   "month": 5,
+   "title": "Se celebra [Nombre del festival 14]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "festivales",
+   "people": "",
+   "featured": true
+  },
+  {
+   "slug": "compositor-15-estrena-titulo-de-la-obra",
+   "day": 29,
+   "month": 5,
+   "title": "[Compositor 15] estrena [Título de la obra]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "compositores",
+   "people": "[Compositor 15]",
+   "featured": false
+  },
+  {
+   "slug": "interprete-16-se-presenta-en-lugar",
+   "day": 7,
+   "month": 6,
+   "title": "[Intérprete 16] se presenta en [Lugar]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "interpretes",
+   "people": "[Intérprete 16]",
+   "featured": false
+  },
+  {
+   "slug": "acontecimiento-historico-17",
+   "day": 19,
+   "month": 6,
+   "title": "[Acontecimiento histórico 17]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "historicos",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "hito-de-la-cultura-vallenata-18",
+   "day": 24,
+   "month": 6,
+   "title": "[Hito de la cultura vallenata 18]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "cultura",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "nace-personaje-19",
+   "day": 5,
+   "month": 7,
+   "title": "Nace [Personaje 19]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "nacimientos",
+   "people": "[Personaje 19]",
+   "featured": false
+  },
+  {
+   "slug": "fallece-personaje-20",
+   "day": 11,
+   "month": 7,
+   "title": "Fallece [Personaje 20]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "fallecimientos",
+   "people": "[Personaje 20]",
+   "featured": true
+  },
+  {
+   "slug": "se-publica-el-disco-titulo-del-disco-21",
+   "day": 28,
+   "month": 7,
+   "title": "Se publica el disco [Título del disco 21]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "discos",
+   "people": "[Intérprete 21]",
+   "featured": false
+  },
+  {
+   "slug": "se-graba-la-cancion-titulo-de-la-cancion-22",
+   "day": 8,
+   "month": 8,
+   "title": "Se graba la canción [Título de la canción 22]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "canciones",
+   "people": "[Compositor 22]",
+   "featured": false
+  },
+  {
+   "slug": "se-celebra-nombre-del-festival-23",
+   "day": 16,
+   "month": 8,
+   "title": "Se celebra [Nombre del festival 23]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "festivales",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "compositor-24-estrena-titulo-de-la-obra",
+   "day": 31,
+   "month": 8,
+   "title": "[Compositor 24] estrena [Título de la obra]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "compositores",
+   "people": "[Compositor 24]",
+   "featured": false
+  },
+  {
+   "slug": "interprete-25-se-presenta-en-lugar",
+   "day": 2,
+   "month": 9,
+   "title": "[Intérprete 25] se presenta en [Lugar]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "interpretes",
+   "people": "[Intérprete 25]",
+   "featured": false
+  },
+  {
+   "slug": "acontecimiento-historico-26",
+   "day": 17,
+   "month": 9,
+   "title": "[Acontecimiento histórico 26]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "historicos",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "hito-de-la-cultura-vallenata-27",
+   "day": 25,
+   "month": 9,
+   "title": "[Hito de la cultura vallenata 27]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "cultura",
+   "people": "",
+   "featured": true
+  },
+  {
+   "slug": "nace-personaje-28",
+   "day": 7,
+   "month": 10,
+   "title": "Nace [Personaje 28]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "nacimientos",
+   "people": "[Personaje 28]",
+   "featured": false
+  },
+  {
+   "slug": "fallece-personaje-29",
+   "day": 13,
+   "month": 10,
+   "title": "Fallece [Personaje 29]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "fallecimientos",
+   "people": "[Personaje 29]",
+   "featured": false
+  },
+  {
+   "slug": "se-publica-el-disco-titulo-del-disco-30",
+   "day": 22,
+   "month": 10,
+   "title": "Se publica el disco [Título del disco 30]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "discos",
+   "people": "[Intérprete 30]",
+   "featured": false
+  },
+  {
+   "slug": "se-graba-la-cancion-titulo-de-la-cancion-31",
+   "day": 3,
+   "month": 11,
+   "title": "Se graba la canción [Título de la canción 31]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "canciones",
+   "people": "[Compositor 31]",
+   "featured": false
+  },
+  {
+   "slug": "se-celebra-nombre-del-festival-32",
+   "day": 10,
+   "month": 11,
+   "title": "Se celebra [Nombre del festival 32]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "festivales",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "compositor-33-estrena-titulo-de-la-obra",
+   "day": 20,
+   "month": 11,
+   "title": "[Compositor 33] estrena [Título de la obra]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "compositores",
+   "people": "[Compositor 33]",
+   "featured": false
+  },
+  {
+   "slug": "interprete-34-se-presenta-en-lugar",
+   "day": 6,
+   "month": 12,
+   "title": "[Intérprete 34] se presenta en [Lugar]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "interpretes",
+   "people": "[Intérprete 34]",
+   "featured": false
+  },
+  {
+   "slug": "acontecimiento-historico-35",
+   "day": 15,
+   "month": 12,
+   "title": "[Acontecimiento histórico 35]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "historicos",
+   "people": "",
+   "featured": false
+  },
+  {
+   "slug": "hito-de-la-cultura-vallenata-36",
+   "day": 31,
+   "month": 12,
+   "title": "[Hito de la cultura vallenata 36]",
+   "summary": "[Descripción breve del acontecimiento — contenido pendiente del libro.]",
+   "body": [
+    "[Párrafo 1 — contexto: dónde y cómo ocurrió el acontecimiento.]",
+    "[Párrafo 2 — protagonistas y testimonios que lo documentan.]",
+    "[Párrafo 3 — por qué esta fecha forma parte de la memoria del vallenato.]"
+   ],
+   "category": "cultura",
+   "people": "",
+   "featured": false
+  }
+ ],
+ "curiosities": [
+  {
+   "slug": "de-donde-viene-el-nombre-vallenato",
+   "title": "¿Sabías de dónde viene el nombre vallenato?",
+   "category": "Origen",
+   "date": "2026-09-28",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "cinco-canciones-que-marcaron-una-epoca",
+   "title": "Cinco canciones que marcaron una época",
+   "category": "Canciones",
+   "date": "2026-09-14",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "los-acordeones-que-hicieron-historia",
+   "title": "Los acordeones que hicieron historia",
+   "category": "Instrumentos",
+   "date": "2026-08-30",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "historias-detras-de-grandes-canciones",
+   "title": "Historias detrás de grandes canciones",
+   "category": "Canciones",
+   "date": "2026-08-16",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "personajes-que-cambiaron-el-vallenato",
+   "title": "Personajes que cambiaron el vallenato",
+   "category": "Personajes",
+   "date": "2026-08-02",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "la-caja-la-guacharaca-y-el-acordeon",
+   "title": "La caja, la guacharaca y el acordeón",
+   "category": "Instrumentos",
+   "date": "2026-07-19",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "slug": "historia-del-vallenato-una-introduccion",
+   "title": "Historia del vallenato: una introducción",
+   "category": "Historia",
+   "date": "2026-09-30",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "los-aires-del-vallenato",
+   "title": "Los aires del vallenato y sus diferencias",
+   "category": "Historia",
+   "date": "2026-09-18",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "compositores-que-escribieron-la-memoria",
+   "title": "Compositores que escribieron la memoria",
+   "category": "Compositores",
+   "date": "2026-09-05",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "acordeoneros-maestros-del-fuelle",
+   "title": "Acordeoneros: maestros del fuelle",
+   "category": "Acordeoneros",
+   "date": "2026-08-22",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "festivales-donde-la-musica-se-encuentra",
+   "title": "Festivales: donde la música se encuentra",
+   "category": "Festivales",
+   "date": "2026-08-08",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "discos-que-hay-que-escuchar",
+   "title": "Discos que hay que escuchar al menos una vez",
+   "category": "Discos",
+   "date": "2026-07-25",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  },
+  {
+   "slug": "efemerides-de-octubre",
+   "title": "Efemérides de octubre",
+   "category": "Efemérides",
+   "date": "2026-10-01",
+   "excerpt": "[Extracto del artículo — contenido pendiente de redacción por el autor.]",
+   "body": [
+    {
+     "type": "p",
+     "text": "[Párrafo de introducción — contenido pendiente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "h2",
+     "text": "[Subtítulo de sección]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de desarrollo — contenido pendiente.]"
+    },
+    {
+     "type": "quote",
+     "text": "[Cita destacada pendiente de verificación y fuente.]"
+    },
+    {
+     "type": "p",
+     "text": "[Párrafo de cierre — contenido pendiente.]"
+    }
+   ]
+  }
+ ]
+}

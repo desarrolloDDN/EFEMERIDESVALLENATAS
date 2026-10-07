@@ -1,0 +1,6 @@
+/* Estilos del editor de bloques: tipografía del sitio */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Manrope:wght@400;600&display=swap");
+body { font-family: "Manrope", system-ui, sans-serif; color: #2a2622; background: #faf8f3; font-size: 1.075rem; line-height: 1.8; }
+h1, h2, h3, h4, .editor-post-title__input { font-family: "Cormorant Garamond", Georgia, serif !important; font-weight: 500; color: #171717; line-height: 1.1; }
+a { color: #a95132; }
+blockquote { border-left: 2px solid #b08a45; padding-left: 1.25rem; font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 1.5rem; }
