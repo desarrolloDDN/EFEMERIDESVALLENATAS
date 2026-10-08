@@ -1,0 +1,13 @@
+{
+  "name": "efemerides-vallenatas-theme",
+  "private": true,
+  "description": "Herramientas de desarrollo del tema (compilación de CSS). No se incluyen en el zip del tema.",
+  "scripts": {
+    "build:css": "tailwindcss -i src/main.css -o assets/css/main.css --minify",
+    "release": "bin/release.sh"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

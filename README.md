@@ -50,7 +50,27 @@ Los estilos usan Tailwind CSS 4 compilado a `assets/css/main.css` (ya incluido; 
 Si cambias clases en las plantillas, recompila:
 
 ```bash
-npx @tailwindcss/cli@4 -i src/main.css -o assets/css/main.css --minify
+npm install && npm run build:css
 ```
 
 Estructura: `inc/` (lógica: opciones, tipos de contenido, componentes, tienda, formularios, SEO, asistente), `template-parts/` (secciones), `page-templates/` (plantillas de página), `assets/` (CSS, JS, imágenes), `data/` (contenido de ejemplo).
+
+## Actualizaciones desde WordPress
+
+El tema se actualiza como cualquier otro: cuando hay una versión nueva en GitHub, WordPress muestra
+el aviso en **Escritorio → Actualizaciones** y en **Apariencia → Temas** con el botón **Actualizar ahora**.
+WordPress consulta GitHub cada pocas horas; para ver una versión recién publicada al instante, pulsa
+**Comprobar de nuevo** en *Escritorio → Actualizaciones*.
+
+Contenidos, productos, ajustes del Personalizador y menús se conservan. No edites archivos del tema
+desde WordPress: la siguiente actualización los sobrescribiría.
+
+### Publicar una versión
+
+```bash
+bin/release.sh 1.2.0 "Qué cambió en esta versión"
+```
+
+El script sube el número de versión, recompila el CSS, crea el commit y la etiqueta `v1.2.0`, y publica
+la *release* en GitHub con el archivo `efemerides-vallenatas.zip` adjunto (requiere `gh` con sesión de
+la cuenta desarrolloDDN). El repositorio debe ser público para que WordPress pueda consultarlo.
