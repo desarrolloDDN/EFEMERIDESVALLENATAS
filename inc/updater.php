@@ -73,14 +73,19 @@ add_filter(
 	3
 );
 
-/** «Comprobar de nuevo» en Escritorio → Actualizaciones consulta GitHub al instante. */
+/**
+ * «Comprobar de nuevo» en Escritorio → Actualizaciones consulta GitHub al instante.
+ * Prioridad 1: debe ejecutarse antes de wp_update_themes (prioridad 10 en el mismo gancho).
+ */
 add_action(
 	'load-update-core.php',
 	function () {
 		if ( isset( $_GET['force-check'] ) ) {
 			delete_site_transient( 'ev_theme_release' );
+			delete_site_transient( 'update_themes' );
 		}
-	}
+	},
+	1
 );
 
 /** Tras actualizar, olvidar la release en caché. */
