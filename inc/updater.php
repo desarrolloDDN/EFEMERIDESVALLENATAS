@@ -23,6 +23,24 @@ function ev_latest_release() {
 	if ( false !== $cached ) {
 		return $cached;
 	}
+	$release = array();
+
+	// 1. Página pública /releases/latest: redirige a /releases/tag/vX.Y.Z. Sin límite de la API
+	//    (importante en hostings compartidos, donde muchos sitios comparten la misma IP).
+	$head = wp_remote_head( 'https://github.com/' . EV_GITHUB_REPO . '/releases/latest', array( 'timeout' => 10, 'redirection' => 0 ) );
+	$location = is_wp_error( $head ) ? '' : (string) wp_remote_retrieve_header( $head, 'location' );
+	if ( preg_match( '#/releases/tag/([^/?#]+)$#', $location, $m ) ) {
+		$tag     = rawurldecode( $m[1] );
+		$release = array(
+			'version' => ltrim( $tag, 'vV' ),
+			'package' => 'https://github.com/' . EV_GITHUB_REPO . '/releases/download/' . rawurlencode( $tag ) . '/' . EV_RELEASE_ASSET,
+			'url'     => $location,
+		);
+		set_site_transient( 'ev_theme_release', $release, 6 * HOUR_IN_SECONDS );
+		return $release;
+	}
+
+	// 2. Respaldo: API de GitHub.
 	$response = wp_remote_get(
 		'https://api.github.com/repos/' . EV_GITHUB_REPO . '/releases/latest',
 		array(
@@ -30,7 +48,6 @@ function ev_latest_release() {
 			'headers' => array( 'Accept' => 'application/vnd.github+json' ),
 		)
 	);
-	$release = array();
 	if ( ! is_wp_error( $response ) && 200 === wp_remote_retrieve_response_code( $response ) ) {
 		$data = json_decode( wp_remote_retrieve_body( $response ), true );
 		foreach ( (array) ( $data['assets'] ?? array() ) as $asset ) {
@@ -44,8 +61,8 @@ function ev_latest_release() {
 			}
 		}
 	}
-	// Si GitHub no responde, reintentar en 1 hora.
-	set_site_transient( 'ev_theme_release', $release, $release ? 6 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
+	// Si GitHub no responde, reintentar en 15 minutos.
+	set_site_transient( 'ev_theme_release', $release, $release ? 6 * HOUR_IN_SECONDS : 15 * MINUTE_IN_SECONDS );
 	return $release;
 }
 

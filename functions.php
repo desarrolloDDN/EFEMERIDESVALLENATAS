@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EV_VERSION', '1.1.2' );
+define( 'EV_VERSION', '1.1.3' );
 define( 'EV_DIR', get_template_directory() );
 define( 'EV_URI', get_template_directory_uri() );
 
